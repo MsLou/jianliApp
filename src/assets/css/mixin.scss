@@ -1,0 +1,15 @@
+@mixin flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@mixin full-screen {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+  background-color: rgb(0, 1, 5);
+  background-image: url('./../../assets/img/h5.png');
+  background-size: 100% 100%;
+  background-position: center center;
+}
